@@ -1,19 +1,28 @@
 //  Function Scope           Var             Let              Const
-// Inside of Function           ✅              ✅                 ✅
-// Outside of Function  ❌                             ❌               ❌
+// Inside of Function          ✅             ✅                 ✅
+// Outside of Function         ❌              ❌                  ❌
 
-
+// function declaration
+//var
 function hello() { ✅
     let a = 10;
 }
 console.log(a)
+//function calliing
+hello ();
 
-hello ()
-
-function hello()
+// LET
+function hey()
 {let a = 10
     console.log(a)
 
 }
 
-hello()
+hey(),
+
+// CONST   
+function yo(){
+    const a = 30;
+    console.log(a);
+}
+yo();
