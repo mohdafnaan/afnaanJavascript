@@ -52,5 +52,69 @@
 //16. Array.of() method
 // a method is to used to create a new array without using parenthesis
 
-let output = Array.of("hi", "hello", 23, 12, 54, false);
-console.log(output);
+// let output = Array.of("hi", "hello", 23, 12, 54, false);
+// console.log(output);
+
+
+
+//17. every() method
+//checks if every element in the array passes a test  (returns true/false).
+//returns : "true" if all elements pass the condition, otherwise "false". returns the value inn boolean values
+
+// let numbers = [ 2,4,6,8];
+// let check = numbers.every(function test(x){
+//     return x > 0;
+// });
+// console.log(check);
+//          (or)
+// let check = numbers.every((x) => x>0);
+// console.log(check);
+
+
+
+//18. find() method
+// returns the first element that satisfies a condition.
+//returs : the element itself, or undefined if not found
+
+// let nums = [2,4,6,8,10];
+
+// let check = nums.find((x)=> x> 6);
+// let less = nums.find((x)=> x < 10);
+// console.log(check);
+// console.log(less);
+
+
+
+//19. findIndex()
+//returns the index of the first element that satisfies a condition
+//returns : index number, or -1 if not found.
+
+ let nums = [2,4,6,8,10];
+
+ let check = nums.findIndex((x)=>x>6);
+ console.log(check);
+
+
+
+
+ //20.forEach() method
+ // purpose : executes a function for each elements
+ // return value : undefined
+ //chainable : no
+ // changes orignal array : No
+ // common use : Logging, saving data
+
+ //ex : forEach just : just loops - doesnt return anything
+
+let numbers = [1,2,3,4,5];
+
+console.log(numbers);
+numbers.forEach((ele) => {
+    console.log(ele * 2);
+});
+console.log(numbers);
+
+let names = ["kaif","saboor","kamran"];
+names.forEach((x)=>{
+    console.log(x);
+})
