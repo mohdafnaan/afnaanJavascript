@@ -50,7 +50,7 @@
 // console.log(arr);
 
 //16. Array.of() method
-// a method is to used to create a new array without using parenthesis
+// a method is to used to create a new array with using parenthesis
 
 // let output = Array.of("hi", "hello", 23, 12, 54, false);
 // console.log(output);
