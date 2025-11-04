@@ -25,7 +25,7 @@ console.log(total);
 
 
 
-4. indexOf() method : it takes input as values and gives output as value.
+4. indexOf() method : it takes input as values and gives output as index.
 
 let nums=["one","two","three","four"]
 console.log(nums.indexOf("one")); //output = 1 
