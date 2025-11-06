@@ -36,7 +36,7 @@ console.log(e1.indexOf("a"));
 
 
 
-//6.indexOf
+//6.lastindexOf
 
 let f1 = "i am ironman"
 console.log(f1.indexOf("a"));
