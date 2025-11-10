@@ -1,0 +1,16 @@
+[
+    {
+        "fname": "kamran",
+           "age" : 20,
+           "isAlive" : true,
+           "isSleeping" : null
+    },
+    {
+        
+        "fname": "afnaan",
+           "age" : 21,
+           "isAlive" : true,
+           "isSleeping" : "undefined"
+
+    }
+]
