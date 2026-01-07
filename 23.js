@@ -7,4 +7,5 @@ do{
     i++;
 } while (i<=10);
 
-// it executes the code for once when the condition is false.
+// it executes the code for once when the condition is false. 
+// do while loop runs forever if its true
