@@ -9,7 +9,7 @@ console.log("studying at code for india foundation")
 
 // want to write a multiple line comment use 
 
-hh
+
 /*
 df
 gh
